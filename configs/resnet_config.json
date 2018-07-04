@@ -1,0 +1,18 @@
+{
+  "version":1,
+  "image_size":160,
+  "weight_decay":5e-5,
+  "random_crop":1,
+  "random_flip":1,
+  "random_rotate":0,
+  "center_loss_factor":1e-2,
+  "center_loss_alfa":0.9,
+  "learning_rate_decay_epochs":100,
+  "learning_rate_decay_factor":1.0,
+  "moving_average_decay":0.9999,
+  "dropout_keep_prob":1.0,
+  "bottleneck_layer_size":128,
+  "optimizer":"RMSPROP",
+  "learning_rate":-1,
+  "learning_rate_schedule_file":"configs/learning_rate_schedule_classifier_casia.txt"
+}

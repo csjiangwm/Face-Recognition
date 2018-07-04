@@ -1,0 +1,15 @@
+{
+  "gpu_memory_fraction":0.8,
+  "max_to_keep":100,
+  "batch_size":64,
+  "epoch_size":1000,
+  "max_nrof_epochs":500,
+  "nrof_classes":3,
+  "mtcnn_config_path":"configs/mtcnn_config.json",
+  "resnet_config_path":"configs/resnet_config.json",
+  "lfw_config_path":"configs/lfw_config.json",
+  "checkpoint_dir":"experiments/ckpt",
+  "summary_dir":"experiments/summary",
+  "lfw_dir":"/media/jwm/DATA/For_Linux/general_data/lfw_align",
+  "classifier_path":"./experiments/classifier.pkl"
+}

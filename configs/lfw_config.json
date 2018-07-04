@@ -1,0 +1,6 @@
+{
+  "lfw_pairs_path":"configs/pairs.txt",
+  "valid_model_path":"/media/jwm/DATA/For_Linux/code/project/facenet/Path/20170512-110547",
+  "lfw_nrof_folds":10,
+  "image_size":160
+}

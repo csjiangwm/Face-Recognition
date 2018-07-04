@@ -1,0 +1,10 @@
+{
+  "minsize":20,
+  "threshold1":0.6,
+  "threshold2":0.7,
+  "threshold3":0.7,
+  "factor":0.709,
+  "margin":44,
+  "frame_interval":3,
+  "image_size":160
+}
