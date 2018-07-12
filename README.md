@@ -66,6 +66,11 @@ Then you can train your model by
 python main.py train  --input_dir your_input_dir_path
 ```
 Note that your_input_dir_path should be equal to your_output_dir_path_for_saving
+## Parse image from internet
+Simply run:
+```bash
+python main.py parse --output_dir your_output_dir_path
+```
 
 
 

@@ -14,6 +14,7 @@ from demos.compare import main as compare
 from demos.train import main as train
 from demos.recognize import main as recognize
 from demos.classifier import main as classifier
+from demos.parse_image import main as parse
 from utils.config import process_config
 
 try:
@@ -40,4 +41,6 @@ elif config.task == 'recognize':
     recognize(config)
 elif config.task == 'classifier':
     classifier(config)
+elif config.task == 'parse':
+    parse(config)
     
